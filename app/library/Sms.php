@@ -8,9 +8,9 @@ class Sms {
 		{
 			$to = '09323729873';
 		}
-		                    $mcproGateway = 'http://122.52.163.202/mcproManager/public/gateway';            
+		                    $mcproGateway = 'http://localhost/mcproManager/public/gateway';            
 		                    $postData = [
-		                            "Keyword" => "GQksA",
+		                            "Keyword" => "",
 		                            "To" => $to,
 		                            "Msg" => $msg
 		                        ];
